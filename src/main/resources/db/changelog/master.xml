@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <include file="db/changelog/20240709111945_created_student_entity.xml"/>
+    <include file="db/changelog/20240709112623_added_column_student_entity.xml"/>
+    <include file="db/changelog/20240709114545_created_school_entity.xml"/>
+    <include file="db/changelog/20240709122634_added_column_student_entity.xml"/>
+    <include file="db/changelog/20240709123456_added_fk_student_entity.xml"/>
+    <include file="db/changelog/20240709150323_created_course_entity.xml"/>
+    <include file="db/changelog/20240709153245_added_column_student_entity.xml"/>
+    <include file="db/changelog/20240709155923_added_column_student_entity.xml"/>
+    <include file="db/changelog/20240709162445_deleted_column_student_entity.xml"/>
+    <include file="db/changelog/20240709163256_deleted_column_student_entity.xml"/>
+    <include file="db/changelog/20240709164556_deleted_column_student_entity.xml"/>
+    <include file="db/changelog/20240709174945_updated_course_entity.xml"/>
+    <include file="db/changelog/20240710151435_updated_column_course_entity.xml"/>
+</databaseChangeLog>

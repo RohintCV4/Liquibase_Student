@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="e38b1891-1715-4ec9-8fa4-a17cb72cbf31" author="Rohint">
+        <renameColumn tableName="course" oldColumnName="fees" newColumnName="fee" columnDataType="BIGINT"/>
+    </changeSet>
+</databaseChangeLog>
